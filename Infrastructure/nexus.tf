@@ -6,6 +6,6 @@ resource "aws_instance" "nexus" {
   user_data              = file("${path.module}/user_data/nexus.sh") # Assuming you have a user_data script for nexus
 
   tags = {
-    Name = "nexus.ambians.project"
+    Name = "nexus"
   }
 }

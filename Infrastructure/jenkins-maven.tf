@@ -6,6 +6,6 @@ resource "aws_instance" "jenkins" {
   user_data              = file("${path.module}/user_data/jenkins-maven.sh") # Assuming you have a user_data script for jenkins
 
   tags = {
-    Name = "jenkins.ambians.project"
+    Name = "jenkins"
   }
 }

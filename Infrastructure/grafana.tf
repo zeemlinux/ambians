@@ -6,6 +6,6 @@ resource "aws_instance" "grafana" {
   user_data              = file("${path.module}/user_data/grafana.sh") # Assuming you have a user_data script for grafana
 
   tags = {
-    Name = "grafana.ambians.project"
+    Name = "grafana"
   }
 }

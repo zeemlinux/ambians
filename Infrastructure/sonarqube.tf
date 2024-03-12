@@ -6,7 +6,7 @@ resource "aws_instance" "sonarqube" {
   user_data              = file("${path.module}/user_data/sonarqube.sh") # Assuming you have a user_data script for sonarqube
 
   tags = {
-    Name = "sonarqube.ambians.project"
+    Name = "sonarqube"
   }
 }
 

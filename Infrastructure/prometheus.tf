@@ -6,6 +6,6 @@ resource "aws_instance" "prometheus" {
   user_data              = file("${path.module}/user_data/prometheus.sh") # Assuming you have a user_data script for prometheus
 
   tags = {
-    Name = "prometheus.ambians.project"
+    Name = "prometheus"
   }
 }

@@ -6,6 +6,6 @@ resource "aws_instance" "splunk" {
 #  user_data              = file("${path.module}/user_data/splunk.sh") # Assuming you have a user_data script for splunk
 
   tags = {
-    Name = "splunk.ambians.project"
+    Name = "splunk"
   }
 }
