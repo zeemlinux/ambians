@@ -2,7 +2,7 @@
 
 hostnamectl set-hostname nexus.ambians.project
 
-yum install java-1.8.0-openjdk.x86_64 wget -y   
+sudo dnf install java-11-amazon-corretto -y        
 mkdir -p /opt/nexus/   
 mkdir -p /tmp/nexus/                           
 cd /tmp/nexus/

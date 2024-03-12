@@ -1,13 +1,13 @@
 locals {
   instances = {
     "dev" = {
-      name = "dev-env.ambians.project"
+      name = "dev-env"
     },
     "stage" = {
-      name = "stage-env.ambians.project"
+      name = "stage-env"
     },
     "prod" = {
-      name = "prod-env.ambians.project"
+      name = "prod-env"
     }
   }
 }
