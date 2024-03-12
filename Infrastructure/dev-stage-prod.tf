@@ -14,9 +14,9 @@ locals {
 resource "aws_instance" "ambians_env" {
   for_each = local.instances
 
-  ami           = "ami-0f403e3180720dd7e" # Replace with the Amazon Linux 2 AMI ID for your region
-  instance_type = "t2.micro"
-  key_name      = "devops" # Assumes you have this key pair created in AWS
+  ami             = "ami-0f403e3180720dd7e" # Replace with the Amazon Linux 2 AMI ID for your region
+  instance_type   = "t2.micro"
+  key_name        = "devops" # Assumes you have this key pair created in AWS
   security_groups = [aws_security_group.ambians.name]
 
   tags = {
@@ -31,5 +31,5 @@ output "instance_details" {
     Public_IP  = instance.public_ip
     Private_IP = instance.private_ip
     DNS        = instance.public_dns
-  }}
+  } }
 }
