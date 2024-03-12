@@ -2,7 +2,17 @@
 
 hostnamectl set-hostname nexus.ambians.project
 
-sudo dnf install java-11-amazon-corretto -y        
+# sudo dnf install java-11-amazon-corretto -y        
+
+sudo yum install java-11-amazon-corretto-headless -y
+
+# Verify Java installation
+java -version
+
+# Set JAVA_HOME environment variable
+echo "export JAVA_HOME=$(dirname $(dirname $(readlink $(readlink $(which javac)))))" | sudo tee -a /etc/profile
+source /etc/profile
+
 mkdir -p /opt/nexus/   
 mkdir -p /tmp/nexus/                           
 cd /tmp/nexus/
