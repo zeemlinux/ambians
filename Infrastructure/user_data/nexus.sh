@@ -10,7 +10,7 @@ sudo yum install java-11-amazon-corretto-headless -y
 java -version
 
 # Set JAVA_HOME environment variable
-echo "export JAVA_HOME=$(dirname $(dirname $(readlink $(readlink $(which javac)))))" | sudo tee -a /etc/profile
+echo "export JAVA_HOME=/usr/lib/jvm/java-11-amazon-corretto.x86_64/bin/java" | sudo tee -a /etc/profile
 source /etc/profile
 
 mkdir -p /opt/nexus/   
