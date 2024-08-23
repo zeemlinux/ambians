@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:129.0) Gecko/20100101 Firefox/129.0" version="24.7.7">
   <diagram name="Page-1" id="LvzW3A1n1WGXpf0Y1S7-">
-    <mxGraphModel dx="2284" dy="1846" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2736" dy="1880" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -20,7 +20,7 @@
           <mxGeometry x="1283" y="287" width="72" height="34" as="geometry" />
         </mxCell>
         <mxCell id="7" value="Data Pipeline" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" parent="1" vertex="1">
-          <mxGeometry x="223" width="912" height="366" as="geometry" />
+          <mxGeometry x="160" width="912" height="366" as="geometry" />
         </mxCell>
         <mxCell id="8" value="Data Transformation" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="385" y="171" width="161" height="34" as="geometry" />
